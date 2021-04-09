@@ -98,21 +98,18 @@ def draw_spider(n: int = 10, l: float = 100):
         turtle.left(360 / n)
 
 
-def draw_round_spiral():
+def draw_round_spiral(l:int = 1000):
     '''
-    Упражнение 7
+    Упражнение 7.
 
-    :return:
+    Рисует круглую спираль.
+
+    :param l: Длина спирали в пикселях.
     '''
 
-    increment = 1
-    g = increment
-
-    while True:
-        turtle.forward(1)
-        g += increment
-        turtle.left(g)
-
+    for i in range(1000):
+        turtle.forward(i * 0.001)
+        turtle.left(1)
 
 def draw_square_spiral(n: int = 50, inc: float = 10):
     '''
@@ -331,7 +328,6 @@ def draw_star(n:int = 11, l:float = 200):
     for i in range(n):
         turtle.left(a)
         turtle.forward(l)
-
 
 
 m_turtle.done()
