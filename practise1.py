@@ -107,9 +107,10 @@ def draw_round_spiral(l:int = 1000):
     :param l: Длина спирали в пикселях.
     '''
 
-    for i in range(1000):
+    for i in range(l):
         turtle.forward(i * 0.001)
         turtle.left(1)
+
 
 def draw_square_spiral(n: int = 50, inc: float = 10):
     '''
