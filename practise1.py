@@ -312,11 +312,9 @@ def draw_smiley_face(r1: float = 100):
 
 def draw_star(n:int = 11, l:float = 200):
     '''
-<<<<<<< HEAD
-    Упражнение 13.
-=======
     Упражнение 14.
->>>>>>> practise1.py
+
+    Рисует звезду.
 
     :param n: int, количество концов звезды.
     :param l: float, длина луча.
@@ -335,10 +333,6 @@ def draw_star(n:int = 11, l:float = 200):
         turtle.forward(l)
 
 
-<<<<<<< HEAD
-draw_star()
-=======
->>>>>>> practise1.py
 
 m_turtle.done()
 
