@@ -331,5 +331,8 @@ def draw_star(n:int = 11, l:float = 200):
         turtle.forward(l)
 
 
+draw_regular_polygons(40, 40, 10)
+
+
 m_turtle.done()
 
